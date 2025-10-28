@@ -518,8 +518,10 @@ a="welcome to my code"
 #     print(f'{num1} is negative')
 
 # 7.
-num1=eval(input("enter num1: "))
-if num1<=100:
-    print(f'{num1*5} is the bill')
-else:
-    print(f'{num1*8} is the bill')
+# num1=eval(input("enter num1: "))
+# if num1<=100:
+#     print(f'{num1*5} is the bill')
+# else:
+#     print(f'{num1*8} is the bill')
+
+

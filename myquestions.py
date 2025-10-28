@@ -327,3 +327,227 @@
 # 19.WAP to check whether the given number value is divisible by 6 or not,if it is divisible cube that number or 
 #    else perform left shift operation by 3 (take user input)
 
+# -------->elif------------>
+
+# num=eval(input("enter a num : "))
+# if num>0:
+#     print(f'{num} is positive')
+# elif num<0:
+#     print(f'{num} is negative')
+# else:
+#     print(f'{num} is zero')
+
+# write a program to check greatest between theree num
+
+
+# num1=eval(input("enter a num: "))
+# num2=eval(input("enter a num: "))
+# num3=eval(input("enter a num: "))
+
+# if num1>num2:
+#     print(f'{num1} is greater')
+# elif num2>num3:
+#     print(f'{num2} is grater')
+# else:
+#     print(f'{num3} is greater')
+
+# write a program to take num from uuser if num is divisible by 3 print fizz 5 then buzz if both fizz buzz
+
+# num=eval(input("enter a num"))
+# if num%3==0 and num%5==0:
+#     print("fizzz-buzz")
+# elif num%3==0:
+#     print("fizz")
+# elif num%5==0:
+#     print("buzz")
+    
+
+# x=eval(input("enter x value : "))
+# y=eval(input("enter y value : "))
+
+# if x>0 and y>0:
+#     print("1 quadrent")
+# elif x<0 and y>0:
+#     print("2 quadrent")
+# elif x<0 and y<0:
+#     print("3 quadrent")
+# elif x>0 and y<0:
+#     print("4 quadrent")
+# else:
+#     print("origin")
+
+# wap to take 1 cahr from user is cahr is upper then print the ascii value  if in lower case convert it into uppercase
+# else add 55 of their ascii and covert to cagr
+
+# char=eval(input("enter a char : "))
+# if char.isupper():
+#     print(ord(char))
+# elif char.islower():
+#     print(char.upper())
+# else:
+#     c = ord(char) + 55
+#     print(chr(c))
+
+# WAP TO TAKE 1 char from user and check is it upper case or lower case or digit or spcial symbol 
+
+# char=eval(input("entere a number"))
+# if 'A'<=char<='Z':
+#     print("it is uppercase")
+# elif 'a'<=char<='z':
+#     print("it is lower case")
+# elif '0'<=char<='9':
+#     print("it is a number")
+# else:
+#     print("char")
+
+# # using inbuilt
+
+# char=eval(input("enter a number"))
+# if char.isupper():
+#     print("it is upper")
+# elif char.islower():
+#     print("it is lower")
+# elif char.isdigit():
+#     print("it is number")
+# else:
+#     print("it is special character")
+
+# inp=eval(input("Enter a data : "))
+# if type(inp)==str:
+#     print(len(inp))
+# elif type(inp)==list:
+#     print(inp.pop())
+# elif type(inp)==tuple:
+#     print(inp[::-1])
+# else:
+#     print("invalid data")
+
+
+# age=eval(input("Enter your age : "))
+# if 0<=age<=17:
+#     print("child")
+# elif 18<=age<=30:
+#     print("adult")
+# elif 31<=age<=60:
+#     print("men")
+# elif 61<=age<=100:
+#     print("senior citizen")
+# else:
+#     print("invalid")
+
+# sub1=eval(input("Enter marks : "))
+# sub2=eval(input("Enter marks : "))
+# sub3=eval(input("Enter marks : "))
+# sub4=eval(input("Enter marks : "))
+# sub5=eval(input("Enter marks : "))
+
+# avg=(sub1+sub2+sub3+sub4+sub5)/5
+
+# if 90<=avg<=100:
+#     print("distinction")
+# elif 75<=avg<=89:
+#     print("first class")
+# elif 60<=avg<=74:
+#     print("second class")
+# elif 50<=avg<=59:
+#     print("third class")
+# elif avg<50:
+#     print("fail")
+
+# num1=eval(input("Enter a num  : "))
+# num2=eval(input("Enter a num  : "))
+# str=eval(input("enter the operation : "))
+
+# if str=='+':
+#     print(f'{num1+num2}')
+# elif str=='-':
+#     print(f'{num1-num2}')
+# elif str=='*':
+#     print(f'{num1*num2}')
+# elif str=='/':
+#     print(f'{num1/num2}')
+# else:
+#     print("invalid operator")
+
+# pas=eval(input("enter a  pass :"))
+# if len(pas)<6:
+#     print("weak")
+# elif 6<=len(pas)<=10:
+#     print("mediu")
+# elif 11<=len(pas)<=15:
+#     print("strong")
+# else:
+#     print("very strong")
+
+# inc = int(input("Enter annual salary: "))
+
+# if inc <= 250000:
+#     print("No tax")
+# elif 250000 < inc <= 500000:
+#     print(f"Tax 5% : {inc * 0.05}")
+# elif 5000001<= inc <= 1000000:
+#     print(f"Tax 20% : {inc * 0.20}")
+# elif inc > 1000000:
+#     print(f"Tax 30% : {inc * 0.30}")
+
+# num=eval(input("enter a digit"))
+# if 0<=num<=9:
+#     print("single")
+# elif 10<=num<=99:
+#     print("double")
+# elif 100<=num<=999:
+#     print("triple")
+# else:
+#     print("invalid")
+
+
+# 2. E-commerce Delivery Charges
+#  A shopping site charges delivery fees:
+# Order < ₹500 → ₹50 charge
+# ₹500–₹1000 → ₹30 charge
+# ₹1000–₹2000 → Free delivery
+# Above ₹2000 → Free delivery + 5% cashback
+
+# amount=eval(input('order amount : '))
+
+# if amount<500:
+#     print(f'bill+dilivary:{amount+50}')
+# elif 500<=amount<=1000:
+#     print(f'bill+charges:{amount+30}')
+# elif 1001<=amount<=2000:
+#     print(f'bill+ no charges:{amount}')
+# else:
+#     print(f'bill {amount} and you received {amount*0.05} as cashback')
+
+# 4. Consider a  input, if it is character, print the first character ascii value, if it is number print the remainder after divided by 3 else print same character.
+
+# input=eval(input("enter a value : "))
+# if type(input)==str:
+#     print(f'{ord(input[0])}')
+# elif type(input)==int:
+#     rem=input/3
+#     print(f'{rem%3}')
+# else:
+#     print(f'{input}')
+
+
+# 5. Flight Ticket Fare
+#  Fare depends on class + age:
+# Economy: ₹5000, Business: ₹10000, First: ₹20000
+# Children (<12) → 50% discount
+# Senior (60+) → 30% discount
+# Others → No discount
+
+# age=eval(input("enter your age : "))
+# if age<12:
+#     print(f'for economy : {5000*0.50}')
+#     print(f'for business : {10000*0.50}')
+#     print(f'for first : {20000*0.50}')
+# elif age>60:
+#     print(f'for economy : {5000*0.30}')
+#     print(f'for business : {10000*0.30}')
+#     print(f'for first : {20000*0.30}')
+# else:
+#     print(f'for economy : {5000}')
+#     print(f'for business : {10000}')
+#     print(f'for first : {20000}')

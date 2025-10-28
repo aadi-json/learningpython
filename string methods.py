@@ -76,11 +76,6 @@
 # print(b.replace("good ","morning"))
 # print(b.replace("Day","morning"))
 
-a = "hello"
-b = "Hello"
-print(a == b, a > b, a < b)
 
-
-print(bool(0), bool(5), bool(-3), bool(""), bool("Python"))
 
 

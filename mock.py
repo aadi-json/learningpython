@@ -61,9 +61,10 @@
 
 # Q2. → Write a program to take two numbers from the user and print the larger number.
 
-num=eval(input("Enter a num:"))
-num2=eval(input("Enter a num:"))
-if num>num2:
-    print(f'{num} is grater')
-else:
-    print(f'{num2} is greater')
+# num=eval(input("Enter a num:"))
+# num2=eval(input("Enter a num:"))
+# if num>num2:
+#     print(f'{num} is grater')
+# else:
+#     print(f'{num2} is greater')
+
