@@ -524,4 +524,11 @@ a="welcome to my code"
 # else:
 #     print(f'{num1*8} is the bill')
 
+# a=[1,2.1,True,'adi',[4,5,6],(1,2,4),1+2j]
+# for i in a:
+# 	if isinstance(i,(int,float,bool,complex)):
+# 		print(i)
 
+inp=int(input("enter a number"))
+for i in range(1,11):
+    print(i*inp)

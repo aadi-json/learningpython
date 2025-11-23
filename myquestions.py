@@ -551,3 +551,96 @@
 #     print(f'for economy : {5000}')
 #     print(f'for business : {10000}')
 #     print(f'for first : {20000}')
+
+#1. wap to check if the given string contains all vowels at least once
+# a = "education"
+# for i in a:
+#     if i in 'aeiou':
+#         print(i,end=",")
+
+#2. wap to print the middle character(s) of the given word
+s = "python"
+
+#3. wap to count how many words contain the letter 'a'
+# t = "apple mango banana orange grapes"
+# count=0
+# for i in t.split():
+#     if 'a' in i:
+#         count+=1
+# print(count)
+
+#4. wap to remove vowels from the string but keep digits
+# x = "pyt4hon2class"
+# c=''
+# for i in x:
+#     if i not in 'aeiou':
+#         c+=i
+# print(c)
+
+#5. wap to print characters that are not repeated anywhere in the string
+# y = "mississippi"
+# d=''
+# for i in y:
+#     if i not in d:
+#         d+=i
+# print(d)
+
+#6. wap to count total number of spaces, digits and alphabets
+# z = "I have 2 apples and 3 mangoes"
+# count=0
+# for i in z:
+#     if i==" ":
+#         count+=1
+# print(count)
+
+#7. wap to print common vowels between two strings
+# p = "beautiful"
+# q = "language"
+# for i in p:
+#     if i in q:
+#         if i in 'aeiou':
+#             print(i)
+        
+
+#8. wap to remove characters that appear more than once
+# r = "programmer"
+# d=''
+# for i in r:
+#     if i not in d:
+#         d+=i
+# print(d)
+
+#9. wap to count total words that start with consonant
+# s = "this is a python practice session"
+# count=0
+# for i in s.split():
+#     if i[0] in 'aeiou':
+#         count+=0
+# print(count)
+
+#10. wap to print string after swapping first and last characters
+k = "machine"
+d=''
+for i in k.split():
+    
+    print(k)
+
+#11. wap to find total vowels in even index positions only
+m = "information"
+
+#12. wap to print each word in reverse order but sentence order same
+n = "data analysis is important"
+
+#13. wap to print only those words that have length equal to 4
+o = "This exam will test your code"
+
+#14. wap to replace every consonant with ‘#’
+w = "banana"
+
+#15. wap to print below pattern for a given word
+s = "dog"
+# d
+# do
+# dog
+# do
+# d
