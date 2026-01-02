@@ -1,4 +1,4 @@
-# '''
+
 # os module:
 # --------------
 # ->if we want to perform any opration on file then we have to take help of os module
@@ -116,21 +116,11 @@
 # file=open("abc.txt","x")
 # os.popen('abc.txt')
 #
-# '''
+#
+#
 
 
 import os
 os.chdir(r"C:\Users\gawan\OneDrive\Desktop\b")
 # print(os.getcwd())
 file=open("abc.txt",)
-# print(file.mode)
-# print(file.name)
-# print(file.readable())
-# print(file.writable())
-# print(file.closed)
-# print(file.closed)
-# print(file.read())
-# print(file.readline())
-# print(file.readlines())
-# print(file.readable())
-# print(file.read(100))
